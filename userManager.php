@@ -18,5 +18,5 @@ spl_autoload_register("autoloadModel");
 </html>
 
 <?php
-echo UserManager::renderDatatable();
+echo UserManager::renderDataTable();
 ?>

@@ -51,7 +51,7 @@ class UserManager{
         return $table;
     }
 
-    public static function renderDatatable() {
+    public static function renderDataTable() {
         self::formHandler();
         $table = "<table border=1>";
         $table .= User::renderHead();

@@ -40,7 +40,7 @@ class User {
         }
         return "
             <form action='' method='post' class='table'>
-                <tr>;
+                <tr>
                     <td><input type='hidden' name='id' value='" . $id . "' /></td>
                     <td><input type='text' name='name' value='" . $name. "' /></td>
                     <td><input type='checkbox' name='admin' value='1' " . $admin . "/></td>

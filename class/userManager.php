@@ -14,7 +14,6 @@ class UserManager{
                 $user = new User($row['uid'], $row['name'], $row['admin']);
                 array_push($users, $user);
             }
-
         }
         return $users;
     }

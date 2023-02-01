@@ -50,7 +50,7 @@ class User {
     }
 
     public function renderAsRowTable() {
-        if (isset($_GET['edit']) && $this->id == $_GET['edit']) {
+        if (isset($_GET['edit']) && $_GET['edit'] == $this->id) {
             return $this->renderForm();
         } else {
             return "

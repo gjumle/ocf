@@ -10,12 +10,12 @@ CREATE TABLE users (
     uid INTEGER PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
     admin BOOLEAN NOT NULL DEFAULT 0
-)
+);
 
 CREATE TABLE institutions (
     iid INTEGER PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL
-)
+);
 
 CREATE TABLE cashFlow (
     cfid INTEGER PRIMARY KEY AUTO_INCREMENT,
@@ -25,4 +25,4 @@ CREATE TABLE cashFlow (
     date DATETIME NOT NULL,
     FOREIGN KEY (uid) REFERENCES users(uid),
     FOREIGN KEY (iid) REFERENCES institution(iid)
-)
+);

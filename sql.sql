@@ -1,4 +1,4 @@
-"C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\mysql\bin\mysql.exe" -u ocf -p
+"C:\Program Files (x86)\EasyPHP-Devserver-17\eds-binaries\dbserver\mysql5717x86x230304150727\bin\mysql.exe" -u ocf -p
 
 CREATE DATABASE ocf CHARACTER SET utf8 COLLATE utf8_general_ci;
 

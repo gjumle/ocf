@@ -1,4 +1,5 @@
 <?php
+
 class UserManager{
 
     private static function getUsers($id = null) {

@@ -1,7 +1,9 @@
 <?php
+
 class User {
     private $id;
     private $name;
+    
     private $admin;
 
     public function __construct($id = null, $name = null, $admin = null) {

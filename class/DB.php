@@ -1,4 +1,5 @@
 <?php
+
 class DB {
     static $conn = null;
 
